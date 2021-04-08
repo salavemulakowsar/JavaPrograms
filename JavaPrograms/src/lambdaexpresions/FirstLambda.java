@@ -10,7 +10,12 @@ public class FirstLambda {
 		System.out.println(sq4);
 		Function<Integer,Integer> f = n -> n*n;
 		System.out.println(f.apply(4));
-		//Function<Integer,Integer> a=()->System.out.println("hello");
+		ISum is=(a,b)->a+b;
+		System.out.println(is.add(10, 20));
+		Funcinterface fi=()->System.out.println("hello");
+		fi.m1();
+		//Function<Integer,Integer> f = n ->n*n;
+		
         //(a,b)-> a+b;  
 		//Function<Integer,Integer> g= (a,b) -> a+b;
 		//System.out.println(g.apply(3));
