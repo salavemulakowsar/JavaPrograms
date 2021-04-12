@@ -14,12 +14,9 @@ public String toString()
 {
 	return (this.name+"\t"+sal);
 }
-@Override
-public int compareTo(Employee o)
-{
-	return (this.sal>o.sal)?1
-			:(this.sal<o.sal)?-1
-					: 0;
-}
+
+  @Override public int compareTo(Employee o) { return (this.sal>o.sal)?1
+  :(this.sal<o.sal)?-1 : 0; }
+ 
 
 }
