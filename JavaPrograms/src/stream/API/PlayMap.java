@@ -13,6 +13,8 @@ public class PlayMap {
        System.out.println(marks);
        List<Integer> updateMarks = marks.stream().map(i -> i+5).collect(Collectors.toList());
        System.out.println(updateMarks);
+       List<Integer> evenNumbers = marks.stream().filter(i -> i%2==0).collect(Collectors.toList());
+       System.out.println(evenNumbers);
 	}
 
 }
